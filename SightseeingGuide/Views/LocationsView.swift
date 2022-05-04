@@ -12,6 +12,7 @@ struct LocationsView: View {
     
     @EnvironmentObject private var vm: LocationsViewModel
     
+    
     var body: some View {
         ZStack {
             Map(coordinateRegion: $vm.mapRegion)
@@ -23,6 +24,9 @@ struct LocationsView: View {
                 
                 Spacer()
             }
+        }
+        .onAppear {
+            print(vm.mapRegion)
         }
     }
 }
@@ -45,11 +49,14 @@ extension LocationsView {
             .foregroundColor(.primary)
             .frame(height: 55)
             .frame(maxWidth: .infinity)
+            .animation(.none, value: vm.mapLocation)
             .overlay(alignment: .leading) {
                 Image(systemName: "arrow.down")
                     .font(.headline)
                     .foregroundColor(.primary)
                     .padding()
+                    .rotationEffect(Angle(degrees:
+                        vm.showLocationsList ? 180 : 0))
              }
         }
         if vm.showLocationsList {
