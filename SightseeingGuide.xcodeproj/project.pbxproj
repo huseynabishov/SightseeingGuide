@@ -17,6 +17,7 @@
 		5C5B6139280E07590084DF5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C5B6138280E07590084DF5C /* Preview Assets.xcassets */; };
 		5C67D2E22814AF7900F1C0C8 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67D2E12814AF7900F1C0C8 /* LocationsListView.swift */; };
 		5CA266DA2822EBB100032ABA /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA266D92822EBB100032ABA /* LocationPreviewView.swift */; };
+		5CD2F43A283276E0004A8A2D /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD2F439283276E0004A8A2D /* LocationMapAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		5C5B6138280E07590084DF5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C67D2E12814AF7900F1C0C8 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		5CA266D92822EBB100032ABA /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		5CD2F439283276E0004A8A2D /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 				5C4FCE69280F410500286638 /* LocationsView.swift */,
 				5C67D2E12814AF7900F1C0C8 /* LocationsListView.swift */,
 				5CA266D92822EBB100032ABA /* LocationPreviewView.swift */,
+				5CD2F439283276E0004A8A2D /* LocationMapAnnotationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C4FCE64280EEF3500286638 /* LocationsDataService.swift in Sources */,
+				5CD2F43A283276E0004A8A2D /* LocationMapAnnotationView.swift in Sources */,
 				5C67D2E22814AF7900F1C0C8 /* LocationsListView.swift in Sources */,
 				5CA266DA2822EBB100032ABA /* LocationPreviewView.swift in Sources */,
 				5C4FCE68280EF98D00286638 /* LocationsViewModel.swift in Sources */,
